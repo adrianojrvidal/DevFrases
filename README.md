@@ -14,7 +14,7 @@ Projeto prático aplicando **React** e **Typescript**, utilizando principalmente
 
 ## 🌐 Demonstração online
 
-Link para a demonstração: [Acesse aqui]('https://adrianojrvidal.github.io/DevFrases/')
+Link para a demonstração: [Acesse aqui](https://adrianojrvidal.github.io/DevFrases/)
 
 ---
 
@@ -22,7 +22,7 @@ Link para a demonstração: [Acesse aqui]('https://adrianojrvidal.github.io/DevF
 
 - React
 - Typescript
-- Vite (caso esteja usando o Vite como bundler)
+- Vite 
 
 ---
 
@@ -46,15 +46,11 @@ Inicie o projeto:
 npm run dev
 ```
 
-*(Se o projeto for Create React App, use `npm start` em vez de `npm run dev`)*
-
 ---
 
-## 🚀 Deploy no GitHub Pages
+## 🚀 Deploy de peojetos com React no GitHub Pages
 
-Este projeto pode ser hospedado no **GitHub Pages**, tanto se você usou **Create React App (CRA)** quanto **Vite**.
-
----
+Projeto com React podem ser hospedados no **GitHub Pages**, tanto se utilziado **Create React App (CRA)** quanto **Vite**.
 
 ### ✅ Deploy usando Create React App (CRA)
 
@@ -66,13 +62,13 @@ npm install gh-pages --save-dev
 
 #### Passo 2: Configurar o `package.json`
 
-##### Adicione o campo `homepage`:
+##### Adicione o campo `homepage`':'
 
 ```json
 "homepage": "https://<seu-usuario-github>.github.io/<nome-do-repositorio>"
 ```
 
-##### Adicione os scripts de deploy:
+##### Adicione os scripts de deploy':'
 
 ```json
 "scripts": {
@@ -96,8 +92,6 @@ npm run deploy
 3. Escolha a branch **`gh-pages`** e a pasta `/root`.
 4. Salve.
 
----
-
 ### ✅ Deploy usando Vite + React + Typescript
 
 #### Passo 1: Instalar o `gh-pages`
@@ -114,7 +108,7 @@ npm install gh-pages --save-dev
 "homepage": "https://<seu-usuario-github>.github.io/<nome-do-repositorio>"
 ```
 
-#### Atualize os scripts de deploy:
+#### Atualize os scripts de deploy':'
 
 ```json
 "scripts": {
@@ -124,8 +118,6 @@ npm install gh-pages --save-dev
   "deploy": "gh-pages -d dist"
 }
 ```
-
----
 
 #### Passo 3: Configurar o Vite para GitHub Pages
 
@@ -141,15 +133,7 @@ export default defineConfig({
 })
 ```
 
-**Exemplo real:**
-
-```ts
-base: '/dev-frases/',
-```
-
 Isso garante que os caminhos dos arquivos estáticos funcionem corretamente no GitHub Pages.
-
----
 
 #### Passo 4: Fazer o deploy
 
@@ -157,15 +141,11 @@ Isso garante que os caminhos dos arquivos estáticos funcionem corretamente no G
 npm run deploy
 ```
 
----
-
 #### Passo 5: Ativar o GitHub Pages
 
 1. Vá até o repositório no GitHub.
 2. Acesse **Settings > Pages**.
 3. Escolha a branch **`gh-pages`** e a pasta `/root`.
 4. Salve.
-
----
 
 ✅ Pronto! Seu projeto está publicado no GitHub Pages.
