@@ -14,7 +14,7 @@ Projeto prático aplicando **React** e **Typescript**, utilizando principalmente
 
 ## 🌐 Demonstração online
 
-Link para a demonstração: [Acesse aqui](https://adrianojrvidal.github.io/DevFrases/)
+Link para a demonstração: <a href="https://adrianojrvidal.github.io/DevFrases/" target="_blank" rel="noopener noreferrer">Acesse aqui</a>
 
 ---
 
