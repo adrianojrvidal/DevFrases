@@ -31,7 +31,7 @@ Link para a demonstração: <a href="https://adrianojrvidal.github.io/DevFrases/
 Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone "https://adrianojrvidal.github.io/DevFrases/"
 ```
 
 Instale as dependências:
