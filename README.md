@@ -48,7 +48,7 @@ npm run dev
 
 ---
 
-## 🚀 Deploy de peojetos com React no GitHub Pages
+## 🚀 Deploy de projetos com React no GitHub Pages
 
 Projeto com React podem ser hospedados no **GitHub Pages**, tanto se utilziado **Create React App (CRA)** quanto **Vite**.
 
